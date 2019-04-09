@@ -1,5 +1,5 @@
 #girilen listenin içindeki elemanlar toplamının max değerini bulma
-def asd(a):
+def MaxBul(a):
     sonuc=[]
     toplam=0
     for i in range(len(a)):
@@ -17,4 +17,4 @@ def asd(a):
     return buyuk
 
 liste=[4,-3,2,-1,-2,6,-5]
-print(asd(liste))
+print(MaxBul(liste))
